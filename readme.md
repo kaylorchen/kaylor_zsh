@@ -10,14 +10,20 @@ brew install zsh # Your OS is Mac OS X
 
 ## 安装配置
 
+```bash
+git clone https://gitee.com/kaylor/kaylor_zsh.git
+```
+
 ### 快速安装
 
 下载本文件夹下所有的文件，把这些文件放到你账户的家目录下，比如你的用户名是 user， 那么你的家目录就是 /home/user。然后解压所有的压缩包,并安装fzf
 ```bash
+cd kaylor_zsh/
 bash ./deploy.sh
 ```
 注意： 这里备份的fzf版本是x86版本，如果使用的目标机器是arm64版本:
 ```bash
+cd kaylor_zsh/
 bash ./deploy_arm64.sh
 ```
 
