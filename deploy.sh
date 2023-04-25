@@ -19,5 +19,6 @@ cp ${cur_dir}/.zshrc ${cur_dir}/.p10k.zsh ~/
 cd ~
 ~/.fzf/install
 sudo apt update
-sudo apt install fd-find highlight -y
+sudo apt install highlight -y
+sudo apt install fd-find -y
 sudo ln -s /usr/bin/fdfind /usr/bin/fd
