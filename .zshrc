@@ -78,7 +78,7 @@ zstyle ':omz:update' mode disabled  # disable automatic updates
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 #plugins=(git)
-plugins=(git sudo extract z cp safe-paste colored-man-pages)
+plugins=(git systemd rsync sudo extract z cp safe-paste colored-man-pages)
 
 source $ZSH/oh-my-zsh.sh
 
