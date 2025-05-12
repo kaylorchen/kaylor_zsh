@@ -15,6 +15,8 @@ if [ ! -d "${HOME}/.fzf" ];then
 fi
 tar -xf ${cur_dir}/.oh-my-zsh.tgz -C ~/
 tar -xf ${cur_dir}/.zplug.tgz -C ~/
+mkdir -p ~/.cache/gitstatus
+tar -xf ${cur_dir}/gitstatusd-linux-aarch64.tar.gz -C ~/cache/gitstatus
 cp ${cur_dir}/.zshrc ${cur_dir}/.p10k.zsh ~/
 cd ~
 tar -xvf ${cur_dir}/fzf*.gz -C ~/.fzf/bin/
