@@ -16,7 +16,7 @@ fi
 tar -xf ${cur_dir}/.oh-my-zsh.tgz -C ~/
 tar -xf ${cur_dir}/.zplug.tgz -C ~/
 mkdir -p ~/.cache/gitstatus
-tar -xf ${cur_dir}/gitstatusd-linux-x86_64.tar.gz -C ~/cache/gitstatus
+tar -xf ${cur_dir}/gitstatusd-linux-x86_64.tar.gz -C ~/.cache/gitstatus
 cp ${cur_dir}/.zshrc ${cur_dir}/.p10k.zsh ~/
 cd ~
 ~/.fzf/install
